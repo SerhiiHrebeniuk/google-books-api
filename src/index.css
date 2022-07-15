@@ -2,3 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .container {
+        height: 100%;
+        max-width: 1580px; 
+        margin: 0 auto;
+        padding: 1px 7px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .backgroundImage {
+      background: url('./utils/image/backgroundBooks.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 40vh;
+    }
+}
+

@@ -1,10 +1,10 @@
+import Main from './components/Main/Main'
 
-import styles from './App.module.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1 className={styles.title}>WORK</h1>
+    <div className='backgroundImage'>
+      <Main />
     </div>
   );
 }

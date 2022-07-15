@@ -1,0 +1,7 @@
+.container {
+    @apply h-40 top-2 left-2;
+
+    &__icon {
+       @apply w-full h-full object-cover;
+    }
+}

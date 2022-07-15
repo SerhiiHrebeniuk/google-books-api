@@ -1,0 +1,7 @@
+.container {
+    @apply w-full text-center mt-9;
+
+    &__text {
+       @apply text-6xl leading-[140%] text-white tracking-wide;
+    }
+}
